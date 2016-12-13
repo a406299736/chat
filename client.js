@@ -54,7 +54,7 @@
 			var html = '';
 			html += '<div class="msg-system">';
 			html += user.username;
-			html += (action == 'login') ? ' 加入了聊天室' : ' 退出了聊天室';
+			html += (action == 'login') ? ' 进来聊天啦' : ' 退出了';
 			html += '</div>';
 			var section = d.createElement('section');
 			section.className = 'system J-mjrlinkWrap J-cutMsg';
