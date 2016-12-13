@@ -1,10 +1,12 @@
 (function () {
 	var d = document,
 	w = window,
+	p = parseInt,
 	dd = d.documentElement,
 	db = d.body,
 	dc = d.compatMode == 'CSS1Compat',
 	dx = dc ? dd: db,
+	ec = encodeURIComponent;
 
 	w.CHAT = {
 		msgObj:d.getElementById("message"),
